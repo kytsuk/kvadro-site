@@ -70,9 +70,14 @@ border: 1px solid white;
 
 }
 /*team*/
+.about_onen{
+    background-image: url("../images/pexels-photo.jpg");
+    background-size: 300%;
+}
 .about{
     margin-top: 50px;
     text-align: center;
+   
 }
 .about h2{
      font-size: 3.5em;
@@ -85,6 +90,7 @@ border: 1px solid white;
     position: relative;
     display: block;
     width: 100%;
+    margin-bottom: 20px;
 }
 .soc-img{
    display: block;
@@ -119,10 +125,13 @@ max-width: 120%;
     -o-transform: scale(1.1);
     transform: scale(1.1);
     border: none;
+    transition: 0.7s;
+    margin-bottom: 10px;
 }
 .soc-photo:hover> .soc-btn{
     opacity: 1;
    transition: 0.7s;
+   bottom: -12px;
 
 }
 .soc-btn i{
