@@ -7,112 +7,83 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/*header*/
 
+/*header*/
 .logo{
     float: left;
 }
 .logo span{
-    font-family: 'Cormorant Infant', serif;
-    color:#C8861C ;
+    font-family: 'Cormorant Infant', serif;     color:#C8861C ;
 }
 .logo span:hover{
-    transition: 0.7s;
-    color:#ffffff ;
+    transition: 0.7s;     color:#ffffff ;
 }
 
 .navbar{
-    margin-bottom: 0!important;
-    background: rgba(0,0,0,0.4);
+    margin-bottom: 0!important;     background: rgba(0,0,0,0.6);
 }
 
 .navbar-toggle> span {
     color:#C8861C;
-
 }
 .nav{
     width: 101%;
 }
-
 .nav>li{
-     display: inline-block;
-      width: 13%;
-border: 1px solid white;
-    border-radius: 8px;
-    margin:1% 0.8% ;
-
+     display: inline-block;       width: 13%; border: 1px solid white;     border-radius: 8px;     margin:1% 0.8% ;
 }
 .nav>li>a {
     /*font-family: 'Cormorant Infant', serif;*/
-    font-family: 'Marck Script', cursive;
-    font-size: 1.45em;
-    color: #fff;
-    text-align: center;
-    padding: 5px 2px ;
+    font-family: 'Marck Script', cursive;     font-size: 1.45em;     color: #fff;     text-align: center;     padding: 5px 2px ;
    }
 .nav>li>a:hover {
-    color: #C8861C;
-  background: none;
-    transition: 0.8s;
+    color: #C8861C;   background: none;     transition: 0.8s;
     }
 .nav> li:hover{
-    border: 1px solid #C8861C;
-    transition: 0.8s;
+    border: 1px solid #C8861C;     transition: 0.8s;
 }
+
 
 /*slider*/
 .carousel-caption{
     padding-bottom: 25%;
 }
-
 .carousel-caption> img{
     max-width: 75%;
-
 }
+
+
 /*team*/
 .about_onen{
-    background-image: url("../images/pexels-photo.jpg");
-    background-size: 300%;
+    background-image: url("../images/pexels-photo.jpg");     background-size: 350%; border-radius: 15px;
 }
 .about{
-    margin-top: 50px;
-    text-align: center;
-   
-}
+    margin: 80px 0;     text-align: center; display: block;
+  }
 .about h2{
-     font-size: 3.5em;
+     font-size: 3.5em; margin-bottom: 30px;
  }
 .about h3{
-    color:#C8861C ;
-    font-size: 2.5em;
+    color:#C8861C ;     font-size: 2.5em;     padding-top: 40px;
 }
 .about h4{
-    color:white ;
-    font-size: 1.8em; padding-bottom: 20px;
+    color:white ;     font-size: 1.7em; padding: 20px 0;
 }
 .soc-photo{
-    position: relative;
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    position: relative;     display: block;     width: 100%;     margin-bottom: 20px;
 }
 .soc-img{
-   display: block;
-   max-width: 100%;
-
+   display: block;    max-width: 100%;
     -webkit-transform: scale(1.0);
     -moz-transform: scale(1.0);
     -ms-transform: scale(1.0);
     -o-transform: scale(1.0);
     transform: scale(1.0);
     opacity: 1;
-
 }
 
 .soc-btn{
-    display: block;
-    position: absolute;
-    width: 100%;
+    display: block;     position: absolute;     width: 100%;
     bottom: 0;
     padding:9px 0;
     opacity: 0;
@@ -121,8 +92,7 @@ border: 1px solid white;
     background: rgba(255,255,255,0.7);
 }
 .soc-photo:hover> .soc-img{
-  display: block;
-max-width: 120%;
+  display: block;    max-width: 120%;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -133,18 +103,113 @@ max-width: 120%;
     margin-bottom: 10px;
 }
 .soc-photo:hover> .soc-btn{
-    opacity: 1;
-   transition: 0.7s;
-   bottom: -12px;
-
+    opacity: 1;    transition: 0.7s;    bottom: -12px;
 }
 .soc-btn i{
-    color: #555555;
-    font-size: 18px; padding: 0 8px;
+    color: #555555;     font-size: 18px; padding: 0 8px;
 }
 .about p{
-    margin-top: 10px;
-    color:black ;
-    background: rgba(255,255,255,0.6);
-    font-size: 1.2em;
+    margin-top: 10px;     color:black ;     background: rgba(255,255,255,0.6);     font-size: 1.2em;
 }
+
+
+/*media*/
+.work{
+    display: block; margin-top: 80px;
+}
+.work> h2{
+    font-size: 3.5em;
+    margin-bottom: 50px;
+    text-align:  center;
+}
+.work h3{
+    font-size: 2.5em;
+    text-align:  center;
+}
+.work p{
+    font-size: 1.4em;
+    text-align:  center;
+    padding: 20px 0;
+}
+.media{
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.foto {
+    position:relative; display: block;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 1;
+}
+.foto img{
+   max-width: 75%; border-radius: 90px;
+}
+
+.vinyl {
+    position: absolute; top: 0;left:0; max-width: 100%; opacity: 0; display: block;
+}
+.vinyl img{
+max-width: 90%;
+}
+.media:hover> .foto {
+    display: block;
+
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+    border: none;
+    transition: 1s;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+
+.media:hover> .vinyl {
+    max-width: 100%;
+    position: absolute;  opacity: 1; z-index: 1; transition: 0.8s; margin-left: 45%; margin-top: 16%;
+}
+.media:hover> .vinyl> img{
+
+    max-width: 120%;
+}
+/*slide soundcloud*/
+
+.soundcloud{
+    max-width: 80%;
+    display: block; margin: 50px auto; text-align: center;
+
+}
+.cloud-font{
+    background: url("../images/pexels-photo-164736.jpeg");
+    background-size: cover;
+    margin: 100px 0;
+}
+.carusel-audio iframe{
+    width: 70%; display: block; margin: 0 auto; padding: 40px 0 60px 0;
+}
+.caption{
+    position: absolute;
+    right: 15%;
+    top: 80%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff; font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/*footer*/
+footer{
+    background: black;
+    color: white; text-align: center;
+}
+

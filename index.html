@@ -48,9 +48,9 @@
                     <!-- Зібрано навігаційні лінки, форми, та інший вміст для переключення -->
                     <div class=" collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                         <ul class="nav nav-pills nav-justified">
-                            <li ><a href="#">Головна </a></li>
+                            <li ><a href="#Home">Головна </a></li>
                             <li><a href="#About">Про гурт</a></li>
-                            <li><a href="#">Портфоліо</a></li>
+                            <li><a href="#Portfolio">Портфоліо</a></li>
                             <li><a href="#">Замовити</a></li>
                             <li><a href="#">Репертуар</a></li>
                             <li><a href="#">Контакти</a></li>
@@ -66,7 +66,7 @@
 </header>
 
 <main>
-    <div class="container-fluid">
+    <div class="container-fluid" id="Home">
         <div class="row">
             <div class="slider">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -116,11 +116,11 @@
              <h2>Наша команда</h2>
              <div class=" col-sm-3">
                  <div class="about_onen">
-                     <h3>Володимир, вокал</h3>
-                     <h4>Клавіша</h4>
+                     <h3>Володимир</h3>
+                     <h4>Клавіша, вокал</h4>
                      <div class="soc-photo">
                          <div class="soc-img">
-                             <img class="img-circle center-block " src="images/avatar.jpg">
+                             <img class="img-circle center-block " src="images/vova.png">
                          </div>
                          <div class="soc-btn">
                              <a href="#"> <i class="fa fa-facebook-official"></i></a>
@@ -183,7 +183,7 @@
                      <h4>Бас гітара, ведучий</h4>
                      <div class="soc-photo">
                          <div class="soc-img">
-                             <img class="img-circle center-block " src="images/avatar.jpg">
+                             <img class="img-circle center-block " src="images/andy.png">
                          </div>
                          <div class="soc-btn">
                              <a href="#"> <i class="fa fa-facebook-official"></i></a>
@@ -200,7 +200,134 @@
          </div>
      </div>
  </div>
+
+    <div class="container-fluid" id="Portfolio">
+        <div class="row">
+            <div class="work">
+                <h2>Портфоліо</h2>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="foto">
+                            <a href="#sound"><img src="images/soundcloud.png"></a>
+                        </div>
+                            <div class="vinyl">
+                                <a href="#sound"><img src="images/vinyl.png"></a>
+                            </div>
+
+                    </div>
+                    <h3>Аудіо</h3>
+                    <p>Тут Ви зможете прослухати пісні у нашому виконанні</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="foto">
+                            <a href=""><img src="images/youtube.png"></a>
+                        </div>
+                        <div class="vinyl">
+                            <a href=""><img src="images/vinyl.png"></a>
+                        </div>
+
+                    </div>
+                    <h3>Відео</h3>
+                    <p>Фрагменти відео із нашого Youtube каналу. </p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="foto">
+                            <a href=""><img src="images/gallery2.png"></a>
+                        </div>
+                        <div class="vinyl">
+                            <a href=""><img src="images/vinyl.png"></a>
+                        </div>
+
+                    </div>
+                    <h3>Галерея</h3>
+                    <p>Фотографії із різних заходів  (весілля, вечірки та корпоративи)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid cloud-font" id="sound">
+        <div class="row">
+            <div class="soundcloud">
+                <h2>Аудіо галерея</h2>
+                <div id="carousel-sound-cloud" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-sound-cloud" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-sound-cloud" data-slide-to="1"></li>
+                        <li data-target="#carousel-sound-cloud" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Обгортка для слайдів -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class=" carusel-audio">
+                                <iframe  scrolling="no" frameborder="no"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/222441629&amp;auto_play=false&amp;
+                                        hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+
+                                </iframe>
+                            </div>
+                            <div class="caption">
+                                Виберіть трек та приємного прослуховування
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" carusel-audio">
+                                <iframe  scrolling="no" frameborder="no"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/222441629&amp;color=ff5500&amp;
+                                        auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+
+                                </iframe>
+                            </div>
+                            <div class="caption">
+                                Виберіть трек та приємного прослуховування
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" carusel-audio">
+                                <iframe class="" scrolling="no" frameborder="no"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/222441629&amp;auto_play=false&amp;
+                                    hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false">
+
+                                </iframe>
+                            </div>
+                            <div class="caption">
+                                Виберіть трек та приємного прослуховування
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Управління -->
+                    <a class="left carousel-control" href="#carousel-sound-cloud" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Попередній</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-sound-cloud" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Наступний</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
 </main>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <p>
+                Всі права захищено - 2017
+            </p>
+        </div>
+    </div>
+
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
