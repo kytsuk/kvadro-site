@@ -86,6 +86,10 @@ border: 1px solid white;
     color:#C8861C ;
     font-size: 2.5em;
 }
+.about h4{
+    color:white ;
+    font-size: 1.8em; padding-bottom: 20px;
+}
 .soc-photo{
     position: relative;
     display: block;
@@ -95,7 +99,7 @@ border: 1px solid white;
 .soc-img{
    display: block;
    max-width: 100%;
-    border-bottom: 1px solid gray;
+
     -webkit-transform: scale(1.0);
     -moz-transform: scale(1.0);
     -ms-transform: scale(1.0);
@@ -114,7 +118,7 @@ border: 1px solid white;
     opacity: 0;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
 }
 .soc-photo:hover> .soc-img{
   display: block;
@@ -140,4 +144,7 @@ max-width: 120%;
 }
 .about p{
     margin-top: 10px;
+    color:black ;
+    background: rgba(255,255,255,0.6);
+    font-size: 1.2em;
 }
