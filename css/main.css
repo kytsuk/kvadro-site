@@ -5,6 +5,8 @@
 body{
     margin-top: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+
+
 }
 
 
@@ -207,7 +209,7 @@ max-width: 90%;
 .caption{
     position: absolute;
     right: 15%;
-    top: 80%;
+    top: 60%;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -230,18 +232,37 @@ max-width: 90%;
     background: url("../images/PG1906_BarnImages.com-10.jpg");
     background-size: auto;
     margin: 150px 0;
+
 }
 .youtube .carousel-control{
     background: none;     color:white ;
 }
 .youtube .carousel-control span{
-    font-size: 70px;
+    font-size: 60px;
 }
 .carusel-Youtube iframe{
    display: block; margin: 0 auto; padding: 40px 0 60px 0;
 }
+.subscribe{
+    background: rgba(25,25,25,0.7); padding: 0 60px; color: red; font-family: 'Marck Script', cursive; font-size: 1.0em;
+}
+.sub-btn{
+   display: block; margin: 0 auto; padding-top: 10px ;
+}
 
-
+/* galery*/
+.galery-font{
+    background: rgba(210, 177, 44, 0.9);
+}
+.galery{
+    text-align: center;
+}
+.galery div{
+    margin: 10px 0;
+}
+.galery h2{
+    font-size: 4em; color: white; font-family: 'Cormorant Infant', serif;
+}
 /*footer*/
 footer{
     background: black;
