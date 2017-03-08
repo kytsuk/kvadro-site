@@ -220,11 +220,11 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="media">
-                        <div class="foto">
-                            <a href=""><img src="images/youtube.png"></a>
+                        <div class="foto navi">
+                            <a href="#Youtube"><img src="images/youtube.png"></a>
                         </div>
-                        <div class="vinyl">
-                            <a href=""><img src="images/vinyl.png"></a>
+                        <div class="vinyl navi">
+                            <a href="#Youtube"><img src="images/vinyl.png"></a>
                         </div>
 
                     </div>
@@ -233,7 +233,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="media">
-                        <div class="foto">
+                        <div class="foto navi">
                             <a href=""><img src="images/gallery2.png"></a>
                         </div>
                         <div class="vinyl">
@@ -316,6 +316,84 @@
         </div>
     </div>
 
+    <div class="container-fluid youtube-font" id="Youtube">
+        <div class="row">
+            <div class="youtube">
+                <h2>Відео галерея</h2>
+                <div id="carousel-Youtube" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-Youtube" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-Youtube" data-slide-to="1"></li>
+                        <li data-target="#carousel-Youtube" data-slide-to="2"></li>
+                        <li data-target="#carousel-Youtube" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Обгортка для слайдів -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class=" carusel-Youtube embed-responsive embed-responsive-4by3">
+
+                                <iframe  src="https://www.youtube.com/embed/Fd9YOF4rgm4" frameborder="0" allowfullscreen></iframe>
+
+
+
+                            </div>
+                            <div class="caption">
+                                Відео
+                            </div>
+                        </div>
+                        <div class="item embed-responsive embed-responsive-4by3">
+                            <div class=" carusel-Youtube">
+                                <iframe  src="https://www.youtube.com/embed/OxlYlDR7XXY" frameborder="0" allowfullscreen></iframe>
+
+                            </div>
+                            <div class="caption">
+                                Відео
+                            </div>
+                        </div>
+                        <div class="item embed-responsive embed-responsive-4by3">
+                            <div class=" carusel-Youtube">
+
+                                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/YDAvt4AhjS4" frameborder="1" allowfullscreen></iframe>
+
+                            </div>
+                            <div class="caption">
+                                Відео
+                            </div>
+                        </div>
+
+                        <div class="item embed-responsive embed-responsive-4by3">
+                            <div class=" carusel-Youtube">
+
+                                <iframe src="https://www.youtube.com/embed/EBCvtfAaHgg" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="caption">
+                                Відео
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Управління -->
+
+                    <a class="left carousel-control" href="#carousel-Youtube" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Попередній</span>
+                    </a>
+
+                    <a class="right carousel-control" href="#carousel-Youtube" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Наступний</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
 
 </main>
 <footer>
@@ -332,5 +410,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="scroll.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
 </body>
 </html>
