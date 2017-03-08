@@ -204,7 +204,7 @@ max-width: 90%;
     color:#C8861C ;
 }
 .carusel-audio iframe{
-    width: 70%; display: block; margin: 0 auto; padding: 40px 0 60px 0;
+    width: 70%; display: block; margin: 0 auto; padding: 40px 0 110px 0;
 }
 .caption{
     position: absolute;
@@ -217,11 +217,12 @@ max-width: 90%;
     color: #ffffff; font-size: 1.5em;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
 }
 /*slide youtube*/
 
 .youtube{
-    max-width: 55%;
+    max-width: 65%;
     display: block; margin: 50px auto 50px auto ; text-align: center;
 
 }
@@ -235,7 +236,7 @@ max-width: 90%;
 
 }
 .youtube .carousel-control{
-    background: none;     color:white ;
+    background: none;     color:white ; max-height: 80%;
 }
 .youtube .carousel-control span{
     font-size: 60px;
@@ -244,7 +245,7 @@ max-width: 90%;
    display: block; margin: 0 auto; padding: 40px 0 60px 0;
 }
 .subscribe{
-    background: rgba(25,25,25,0.7); padding: 0 60px; color: red; font-family: 'Marck Script', cursive; font-size: 1.0em;
+    background: rgba(25,25,25,0.2); padding: 0 60px; color: red; font-family: 'Marck Script', cursive; font-size: 1.0em; border-color: white;
 }
 .sub-btn{
    display: block; margin: 0 auto; padding-top: 10px ;
@@ -255,16 +256,17 @@ max-width: 90%;
     background: rgba(210, 177, 44, 0.9);
 }
 .galery{
-    text-align: center;
+    text-align:center;
 }
 .galery div{
-    margin: 10px 0;
+    margin-bottom: 30px ;
 }
 .galery h2{
     font-size: 4em; color: white; font-family: 'Cormorant Infant', serif;
 }
 /*footer*/
 footer{
+    margin-top: 40px;
     background: black;
     color: white; text-align: center;
 }
