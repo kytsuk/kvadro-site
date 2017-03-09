@@ -47,6 +47,16 @@ body{
 
 
 /*slider*/
+.slider h2{
+    font-size: 4em; font-family: 'Marck Script', cursive; color: #C8861C; text-shadow: black 1px 1px 2px;
+}
+.kvadro{
+    background: url('../images/night-vintage-music-bokeh.jpg')  ;   background-size: cover;  font-size: 1.2em; color: white; padding: 20px 60px;
+    border-radius: 30px;
+}
+.kvadro> p{
+background: none!important; color: white!important;
+}
 .carousel-caption{
     padding-bottom: 25%;
 }
