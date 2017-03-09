@@ -5,10 +5,12 @@
 body{
     margin-top: 0px;
     font-family: 'Roboto Condensed', sans-serif;
-
+    /*background: rgba(244, 234, 196, 0.6);*/
 
 }
-
+.with-bg{
+    background: white;
+}
 
 /*header*/
 .logo{
@@ -29,7 +31,7 @@ body{
     color:#C8861C;
 }
 .nav{
-    width: 101%;
+    max-width: 101%;
 }
 .nav>li{
      display: inline-block;       width: 13%; border: 1px solid white;     border-radius: 8px;     margin:1% 0.8% ;
@@ -150,7 +152,7 @@ background: none!important; color: white!important;
     position: relative;
     text-align: center;
     display: block;
-    width: 100%;
+    width: 100%; background: white;
 }
 
 .foto {
@@ -205,7 +207,7 @@ max-width: 90%;
     font-size: 3em; font-family: 'Cormorant Infant', serif;
 }
 .cloud-font{
-    background: url("../images/pexels-photo-164736.jpeg");
+    background: url("../images/pexels-photo-164736.jpg");
     background-size: cover;
     margin: 100px 0;
 }
@@ -242,7 +244,7 @@ max-width: 90%;
 .youtube-font{
     background: url("../images/PG1906_BarnImages.com-10.jpg");
     background-size: auto;
-    margin: 150px 0;
+    margin: 150px 0 80px 0;
 
 }
 .youtube .carousel-control{
@@ -266,18 +268,104 @@ max-width: 90%;
     background: rgba(210, 177, 44, 0.9);
 }
 .galery{
-    text-align:center;
+    text-align:center; margin-bottom: 40px;
 }
 .galery div{
     margin-bottom: 30px ;
 }
 .galery h2{
-    font-size: 4em; color: white; font-family: 'Cormorant Infant', serif;
+    font-size: 4em; color: white; font-family: 'Cormorant Infant', serif; text-shadow: black 1px 1px 2px;
+}
+
+/*team*/
+.team{
+    text-align: center; display: block; margin: 60px 0;
+}
+.team h2{
+    font-size: 4em; color: black; font-family: 'Cormorant Infant', serif;
+}
+.team i{
+    font-size: 6em; color: red;
+}
+.team div{
+    margin: 30px 0;
+}
+.team p{
+    font-size: 1.6em; padding: 20px 10px;
+}
+.fa-border{
+    padding: .2em .25em .15em;
+    border: solid .03em rgba(210, 177, 44, 0.9);;
+    border-radius: 100%;
+}
+
+/*service*/
+.service-font{
+    background: url("../images/black_paper.jpg"); color: white; display: block;
+}
+.service{
+  max-width: 40%; display: block; margin: 90px auto; text-align: center; line-height: 2.5;
+}
+.service-text{
+    border: 2px solid white; border-radius: 30px; background: rgba(0,0,0,0.3); margin: 40px 0 20px 0;
+}
+.service-text h2{
+    font-size: 4em; color: black; font-family: 'Cormorant Infant', serif;
+}
+.service-text> ul> li{
+    list-style:none!important; border-bottom: 1px solid gray; margin: 10px 20px; font-size: 1.2em;
+}
+.service-text> ul> li:last-child{
+    border-bottom: none;
+}
+/*contact form*/
+.my-form{
+    background: url("../images/night-vintage-music-bokeh.jpg"); background-size:140%;  text-align: center;  padding: 20px 60px; border-top: 2px solid white;
+}
+.my-form h2{
+    font-size: 3.8em; color: white; text-shadow: black 1px 1px 2px; font-family: 'Cormorant Infant', serif; padding-bottom: 30px;
+}
+.chk-box{
+    text-align: left; color: white; text-shadow: black 1px 1px 2px;
+}
+.ser-btn{
+    padding: 10px 50px; text-shadow: black 1px 1px 1px;
+}
+.ser-btn:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); transition: 0.4s; border: 1px solid white;
+}
+/*contact*/
+.contact-font{
+    background: url("../images/background-image-for-website-6.jpg"); background-size: cover; padding-bottom: 30px; border-top: 2px solid white;
+}
+.contact{
+    text-align: center;
+    color: white;
+}
+.contact h2{
+    font-size: 3.2em; color: white; text-shadow: black 1px 1px 2px; font-family: 'Cormorant Infant', serif;
+}
+.contact h4{
+    text-align: center; padding-bottom: 20px;
+}
+.soc i{
+    font-size: 3.8em; padding: 10px; color: #F0AD4E;
+}
+.soc i:hover{
+     border: 2px solid white; transition: 0.5s ; border-radius: 20%;
+}
+.number{
+    text-align: left; padding-left: 90px;
+    font-size: 1.6em ;
 }
 /*footer*/
 footer{
-    margin-top: 40px;
-    background: black;
+    padding: 20px 0;
+    background: url("../images/black_paper.jpg");
     color: white; text-align: center;
 }
 
