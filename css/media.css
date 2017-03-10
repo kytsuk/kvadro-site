@@ -1,4 +1,77 @@
-@media screen and (max-width: 1024px{
+@media screen and (max-width:1200px ){
+    .nav>li>a {
+        font-size: 1.2em;
+    }
+    .carousel-caption{
+        padding-bottom: 10%;
+    }
+    .slider h2{
+        font-size: 3.5em;
+    }
+    .service{
+        max-width: 50%;
+    }
 
+    .team p{
+        font-size: 1.3em; padding: 20px 10px;
+    }
 
 }
+/*
+@media screen and (max-width:996px ){
+    .logo{
+        display: none;
+    }
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: -25px;
+    }
+    }
+    .nav{
+        max-width: 100%; margin: 0;
+    }
+    .nav>li{
+        display: inline-block;       min-width: 15%;      border-radius: 8px;     margin:0% 0.8% ;
+    }
+    .nav>li>a {
+        font-size: 1.0em;
+    }
+    .carousel-caption{
+        padding-bottom: 3%;
+    }
+    .carousel-caption> img{
+        max-width: 70%;
+    }
+.slider h2{
+    font-size: 2.8em;
+}
+    .service-text{
+        font-size: 1.1em;
+    }
+    .team p{
+        font-size: 1.1em; padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width:768px ){
+    .navbar-header{
+        margin: 0;
+    }
+    .nav>li{
+             margin:0.5% 0.5% ;
+    }
+    .nav>li>a {
+             padding: 2px 2px ;
+    }
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 145px;
+    }
+    .logo{         display:block;    }
+        .carousel-caption> img{
+        max-width: 60%; padding-top: 20%;
+    }
+
+    .slider h2, h2{
+        font-size: 2.0em; margin: 0;
+    }
+}
+*/

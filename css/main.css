@@ -26,9 +26,8 @@ body{
 .navbar{
     margin-bottom: 0!important;     background: rgba(0,0,0,0.6);
 }
-
-.navbar-toggle> span {
-    color:#C8861C;
+  .glyphicon {
+    color: white;
 }
 .nav{
     max-width: 101%;
@@ -52,6 +51,15 @@ body{
 .slider h2{
     font-size: 4em; font-family: 'Marck Script', cursive; color: #C8861C; text-shadow: black 1px 1px 2px;
 }
+.carousel-caption{
+    padding-bottom: 25%;
+}
+.carousel-caption> img{
+    max-width: 75%;
+}
+
+
+
 .kvadro{
     background: url('../images/night-vintage-music-bokeh.jpg')  ;   background-size: cover;  font-size: 1.2em; color: white; padding: 20px 60px;
     border-radius: 30px;
@@ -59,12 +67,7 @@ body{
 .kvadro> p{
 background: none!important; color: white!important;
 }
-.carousel-caption{
-    padding-bottom: 25%;
-}
-.carousel-caption> img{
-    max-width: 75%;
-}
+
 
 
 /*team*/
@@ -307,20 +310,24 @@ max-width: 90%;
   max-width: 40%; display: block; margin: 90px auto; text-align: center; line-height: 2.5;
 }
 .service-text{
-    border: 2px solid white; border-radius: 30px; background: rgba(0,0,0,0.3); margin: 40px 0 20px 0;
+    border: 2px solid white; border-radius: 30px; background: rgba(0,0,0,0.3); margin: 40px 0 20px 0; font-size: 1.5em;
 }
-.service-text h2{
-    font-size: 4em; color: black; font-family: 'Cormorant Infant', serif;
+.service h2{
+    font-size: 4em; color: white; font-family: 'Cormorant Infant', serif;
 }
 .service-text> ul> li{
     list-style:none!important; border-bottom: 1px solid gray; margin: 10px 20px; font-size: 1.2em;
 }
-.service-text> ul> li:last-child{
-    border-bottom: none;
+.service-text> ul> a> li:last-child{
+    border-bottom: none; list-style: none!important;
 }
 /*contact form*/
 .my-form{
-    background: url("../images/night-vintage-music-bokeh.jpg"); background-size:140%;  text-align: center;  padding: 20px 60px; border-top: 2px solid white;
+    background: url("../images/night-vintage-music-bokeh.jpg"); background-size:140%;  text-align: center;
+    padding: 20px 60px; border-top: 2px solid white; font-size: 1.6em;
+}
+.my-form input[placeholder]{
+    font-size: 0.8em;
 }
 .my-form h2{
     font-size: 3.8em; color: white; text-shadow: black 1px 1px 2px; font-family: 'Cormorant Infant', serif; padding-bottom: 30px;
@@ -328,8 +335,11 @@ max-width: 90%;
 .chk-box{
     text-align: left; color: white; text-shadow: black 1px 1px 2px;
 }
+.chk-box label{
+    font-size: 0.8em;
+}
 .ser-btn{
-    padding: 10px 50px; text-shadow: black 1px 1px 1px;
+    padding: 10px 50px; text-shadow: black 1px 1px 1px; font-size: 1em;
 }
 .ser-btn:hover{
     -webkit-transform: scale(1.1);
