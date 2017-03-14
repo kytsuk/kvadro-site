@@ -17,14 +17,12 @@
     }
 
 }
-/*
 @media screen and (max-width:996px ){
     .logo{
         display: none;
     }
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
         margin-left: -25px;
-    }
     }
     .nav{
         max-width: 100%; margin: 0;
@@ -35,33 +33,176 @@
     .nav>li>a {
         font-size: 1.0em;
     }
+    .service{
+        max-width: 50%;
+    }
+    .service-text{
+        font-size: 1.4em;
+    }
     .carousel-caption{
         padding-bottom: 3%;
-    }
-    .carousel-caption> img{
-        max-width: 70%;
-    }
-.slider h2{
-    font-size: 2.8em;
-}
-    .service-text{
-        font-size: 1.1em;
     }
     .team p{
         font-size: 1.1em; padding: 20px 10px;
     }
+    .slider h2{
+        font-size: 2.8em;
+    }
+
 }
+
+@media screen and (max-width:768px ){
+    .nav>li{
+        margin:0.5% 0.5% ;
+    }
+    .nav>li>a {
+        padding: 2px 2px ;
+    }
+    .logo{
+        display: inline-block; margin-left: 40px;
+    }
+    .about{
+        margin: 40px 0;
+    }
+    .my-about{
+        display: inline-block;
+    }
+
+    .work{
+        margin-top: 40px;
+    }
+    .media{
+               max-width: 60%; margin: 0 auto;
+    }
+    .cloud-font{
+                margin: 40px 0;
+    }
+    .soundcloud{
+        margin: 20px auto ;
+    }
+    .soundcloud .carousel-control span{
+        font-size: 60px; margin-top: 40px ;
+    }
+    .carusel-audio iframe{
+        width: 90%;  padding: 20px 0 90px 0;
+    }
+    .youtube{
+        max-width: 95%;
+       margin: 20px auto 20px auto ;
+    }
+    .youtube-font{
+         margin: 80px 0 40px 0;
+    }
+    .service{
+        max-width: 70%;
+    }
+    .my-form{
+        background-size:210%;
+    }
+    .number{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:658px ){
+    .navbar-brand{
+        padding: 0 !important;
+
+    }
+    .navbar-toggle{
+        margin-top: 0px; margin-bottom: 0px; padding-bottom: 2px;
+    }
+    .nav>li>a {
+        font-size: 0.9em;
+    }
+    .nav>li{
+        margin:2px 3px ; width: 25%; text-align: center;
+    }
+
+    .soundcloud .carousel-control span{
+        font-size: 45px;
+    }
+    .service{
+        max-width: 90%;
+    }
+    .kvadro{
+        padding: 10px 10px;
+
+    }
+
+    .slider h2{
+        font-size: 2em;
+    }
+    .about{
+        margin: 15px 0;
+    }
+    .about h2{
+        font-size: 2em;
+    }
+    .about h3{
+           font-size: 1.8em;
+    }
+    .about h4{
+           font-size: 1.4em;
+    }
+    .work> h2{
+        font-size: 2em;
+    }
+    .work h3{
+        font-size: 1.8em;
+            }
+    .soundcloud h2{
+        font-size: 2em;
+    }
+    .youtube h2{
+        font-size: 2em;
+    }
+    .galery h2{
+        font-size: 2em;
+    }
+    .team h2{
+        font-size: 2em;
+    }
+    .service h2{
+        font-size: 2em;
+    }
+    .service-text{
+         margin: 20px 0 20px 0; font-size: 1.1em;
+    }
+    .service{
+         margin: 30px auto; line-height: 2;
+    }
+    .my-form h2{
+        font-size: 2em;
+    }
+    .my-form{
+
+        font-size: 1.2em;
+    }
+    .contact h2{
+        font-size:2em;
+    }
+    .soc i{
+        font-size: 2.0em;
+    }
+    .number{
+         padding-left: 40px;
+        font-size: 1.2em ;
+    }
+    .contact h4{
+        font-size: 1.2em;
+    }
+}
+
+/*
+
+
 
 @media screen and (max-width:768px ){
     .navbar-header{
         margin: 0;
     }
-    .nav>li{
-             margin:0.5% 0.5% ;
-    }
-    .nav>li>a {
-             padding: 2px 2px ;
-    }
+
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
         margin-left: 145px;
     }
