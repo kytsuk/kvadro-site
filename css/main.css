@@ -61,18 +61,18 @@ body{
 
 
 .kvadro{
-    background: url('../images/night-vintage-music-bokeh.jpg')  ;   background-size: cover;  font-size: 1.2em; color: white; padding: 20px 60px;
+    background: url('../images/night-vintage-music-bokeh.jpg')  ;   background-size: 250%  font-size: 1.2em; color: white; padding: 20px 60px;
     border-radius: 30px;
 }
 .kvadro> p{
-background: none!important; color: white!important;
+background: none!important; color: white!important; text-shadow: black 1px 1px 1px;
 }
 
 
 
 /*team*/
 .about_onen{
-    background-image: url("../images/pexels-photo.jpg");     background-size: 350%; border-radius: 15px;
+    background-image: url("../images/pexels-photo.jpg");     background-size: 350%; border-radius: 15px; max-width: 95%;
 }
 .about{
     margin: 80px 0;     text-align: center; display: block;
@@ -155,7 +155,7 @@ background: none!important; color: white!important;
     position: relative;
     text-align: center;
     display: block;
-    width: 100%; background: white;
+    max-width: 100%; background: white;
 }
 
 .foto {
@@ -330,7 +330,7 @@ max-width: 90%;
     font-size: 0.8em;
 }
 .my-form h2{
-    font-size: 3.8em; color: white; text-shadow: black 1px 1px 2px; font-family: 'Cormorant Infant', serif; padding-bottom: 30px;
+    font-size: 3.2em; color: white; text-shadow: black 1px 1px 2px; font-family: 'Cormorant Infant', serif; padding-bottom: 30px;
 }
 .chk-box{
     text-align: left; color: white; text-shadow: black 1px 1px 2px;
